@@ -1,3 +1,3 @@
 # Arduino 101
 
-## RGB LED STRIP
+### RGB LED STRIP
