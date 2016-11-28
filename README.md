@@ -2,7 +2,7 @@
 Taller realizado para introducir un poco el funcionamiento de la tarjeta Arduino con leds RGB's y señales digitales. Adicionalmente se introduce el tema de la comunicacion serial para trabajar con scripts locales en python o en node.js.
 
 El siguiente diagrama puede ser muy util durante el taller:
-![alt tag](https://www.arduino.cc/en/uploads/Hacking/Atmega168PinMap2.png)
+![alt tag](http://www.chicoree.fr/w/images/9/95/ATmega328P_vs_Arduino_pin_mapping.png)
 
 ## Arduino on Board
 El ideal es montar primero la tarjeta en la protoboard, por lo cual se recomienda seguir los pasos visuales que se muestran a continuacion:
