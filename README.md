@@ -36,4 +36,4 @@ http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx
 
 ## RGB Led Strip Library
 Si se alcanza a trabajar por completo con el RGB Strip, es necesario instalar la libreria disponible en sparkfun.
-https://cdn.sparkfun.com/assets/0/4/a/f/8/51f1806cce395fcd20000004.zip
+https://cdn.sparkfun.com/assets/0/4/a/f/8/51f1806cce395fcd20000004.zip y consultar el siguiente codigo https://github.com/jjcc1421/WebLedStrip/blob/master/ArduinoCode/ArduinoCode.ino
