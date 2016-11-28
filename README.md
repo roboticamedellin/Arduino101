@@ -16,6 +16,12 @@ El ideal es montar primero la tarjeta en la protoboard, por lo cual se recomiend
 * Arduino en la protoboard
 ![alt tag](ArduinoBoardSteps/img04.jpg)
 
+* Arduino en la protoboard
+![alt tag](ArduinoBoardSteps/img05.jpg)
+
+* Arduino en la protoboard
+![alt tag](ArduinoBoardSteps/img06.jpg)
+
 ## Driver for CP210x
 Es necesario tener instalado este driver en nuestra maquina ya que el chipset es diferente a los que se reconocen automaticamente en el computador.
 
