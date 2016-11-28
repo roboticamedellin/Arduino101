@@ -4,23 +4,27 @@ Taller realizado para introducir un poco el funcionamiento de la tarjeta Arduino
 ## Arduino on Board
 El ideal es montar primero la tarjeta en la protoboard, por lo cual se recomienda seguir los pasos visuales que se muestran a continuacion:
 
-* Arduino en la protoboard
+* Ubicar el ATMega328p la protoboard con conexiones iniciales
 ![alt tag](ArduinoBoardSteps/img01.jpg)
 
-* Arduino en la protoboard
+* Agregar los capacitores y el Pulsador
 ![alt tag](ArduinoBoardSteps/img02.jpg)
 
-* Arduino en la protoboard
+* Ubicar la resistencia de 10K Ohm y el Cristal
 ![alt tag](ArduinoBoardSteps/img03.jpg)
 
-* Arduino en la protoboard
+* Agreagar el Led con las resistencias de 1K Ohm
 ![alt tag](ArduinoBoardSteps/img04.jpg)
-
-* Arduino en la protoboard
 ![alt tag](ArduinoBoardSteps/img05.jpg)
 
-* Arduino en la protoboard
+* Hacer puente de las resistencias con los leds al micro.
 ![alt tag](ArduinoBoardSteps/img06.jpg)
+
+* Perspectiva 1 para conectar el comunicador serial
+![alt tag](ArduinoBoardSteps/img07.jpg)
+
+* Perspectiva 2 para conectar el comunicador serial
+![alt tag](ArduinoBoardSteps/img08.jpg)
 
 ## Driver for CP210x
 Es necesario tener instalado este driver en nuestra maquina ya que el chipset es diferente a los que se reconocen automaticamente en el computador.
