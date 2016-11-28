@@ -5,6 +5,19 @@ El siguiente diagrama puede ser muy util durante el taller:
 ![alt tag](http://www.chicoree.fr/w/images/9/95/ATmega328P_vs_Arduino_pin_mapping.png)
 
 ## Arduino on Board
+Estos son los materiales que tendran a disposicion:
+* Led RGB
+* 3 Resistencias de 1 K Ohm (cafe-negro-rojo)
+* Resistencia de 10 K Ohm (cafe-negro-naranja)
+* Pulsador
+* 1 Cristal
+* 2 Capacitors de 22 pF
+* Micro ATMega328p
+* ProtoBoard
+* 3 cables M-M
+* 4 cables H-H (Juntos)
+* 4 cables M-M (separados)
+
 El ideal es montar primero la tarjeta en la protoboard, por lo cual se recomienda seguir los pasos visuales que se muestran a continuacion:
 
 * Ubicar el ATMega328p la protoboard con conexiones iniciales
