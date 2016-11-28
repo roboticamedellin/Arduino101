@@ -4,6 +4,7 @@ Taller realizado para introducir un poco el funcionamiento de la tarjeta Arduino
 ## Arduino on Board
 El ideal es montar primero la tarjeta en la protoboard, por lo cual se recomienda seguir los pasos visuales que se muestran a continuacion:
 
+### Arduino en la protoboard
 ![alt tag](ArduinoBoardSteps/img01.jpg)
 
 ## Driver for CP210x
