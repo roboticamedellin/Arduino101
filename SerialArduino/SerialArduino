@@ -1,0 +1,40 @@
+char c;
+String comando;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+//  strip.show(); // Initialize all pixels to 'off'
+}
+
+void serialEvent(){
+  if (Serial.available()) {
+    c = Serial.read();
+    if (c == '\n') {
+      parseCommand(comando);
+      comando = "";
+    }
+    else {
+      comando += c;
+    }
+  }
+}
+
+void parseCommand(String com) {
+  String part1; //position
+  String part2; //Red
+  String part3; //Green
+  String part4; //Blue
+  String midle; //buffer
+
+  midle = com; //1-255-0-99
+  part1 = midle.substring(0, midle.indexOf("-"));
+  midle = midle.substring(com.indexOf("-") + 1);
+  part2 = midle.substring(0, midle.indexOf("-"));
+  midle = midle.substring(midle.indexOf("-") + 1);
+  part3 = midle.substring(0, midle.indexOf("-"));
+  midle = midle.substring(midle.indexOf("-") + 1);
+  part4 = midle.substring(midle.indexOf("-") + 1);
+}
